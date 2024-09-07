@@ -25,7 +25,7 @@ const pessoa1 = {
   idade: 25,
   
   falar(){
-    console.log(`${this.nome[1]} ${this.sobrenome} esta falando oi ${this.idade}`)
+    console.log(`${pessoa1.nome[1]} ${this.sobrenome} esta falando oi ${this.idade}`)
   },
   
   incrementaIdade(){
@@ -37,8 +37,5 @@ console.log(pessoa1.nome)
 console.log(pessoa1.sobrenome)
 pessoa1.falar() 
 pessoa1.incrementaIdade()
-pessoa1.falar() 
-pessoa1.incrementaIdade()
-pessoa1.falar() 
-pessoa1.incrementaIdade()
-pessoa1.falar() 
+
+
