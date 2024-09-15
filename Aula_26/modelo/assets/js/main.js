@@ -1,3 +1,6 @@
+
+// Aqui eu pego todos os elemntos html e chamo as funcoes 
+
 document.getElementById('submit').addEventListener('click', () => {
 
   let resultado = document.getElementById('resultado')
@@ -11,6 +14,7 @@ document.getElementById('submit').addEventListener('click', () => {
   escrever(resultado, peso, altura, resultadoIMC, regrasTable )
 })
 
+//Funcao para fazer o calculo do IMC
 
 let calcIMC = (peso, altura) => {
 
@@ -19,6 +23,8 @@ let calcIMC = (peso, altura) => {
   return conta
 
 }
+
+// Funcao que verifica em qual classificao a pessoa se adéqua
 
 let regras = (resultadoIMC) => {
 
@@ -38,6 +44,8 @@ let regras = (resultadoIMC) => {
   }
 }
 
+//Funcao que escreve e classifica o resultado na tela
+
 let escrever = (resultado, peso, altura, resultadoIMC, regrasTable) => {
   
   if (peso === '') {
@@ -54,4 +62,3 @@ let escrever = (resultado, peso, altura, resultadoIMC, regrasTable) => {
     resultado.innerHTML = `Seu imc e ${resultadoIMC} (${regrasTable})`
   }
 }
-
