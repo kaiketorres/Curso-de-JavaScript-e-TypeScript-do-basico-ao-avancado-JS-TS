@@ -7,7 +7,7 @@ console.log(um, dois, tres, resto)
 
 const numeros = [
   [1, 2, 3],
- git a
+  [4, 5, 6]
   [7, 8, 9]
 ];
 
