@@ -23,5 +23,5 @@ console.log(hora)
 } catch (e) {
    //Tratar erro
 } finally{
-   console.log('Tenha um bom dia')
+   console.log('Tenha um bom diaa')
 }
